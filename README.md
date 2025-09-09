@@ -26,14 +26,14 @@ Takes the flipCoin function that returns a promise
 Refactors it to use async/await instead of .then() method
 Uses try/catch blocks for success and error handling instead of .then()/.catch()
 
-Part 2: 
+## Part 2: 
 
 Refactors the trivia API fetch function from promise chains to async/await
 Converts the function into an arrow function format
 Replaces .then() and .catch() blocks with try/catch structure
 Maintains the same functionality but with cleaner, more readable syntax
 
-Part 3: 
+## Part 3: 
 
 Combined functionality: Integrates both the coin flip and API fetch into one function
 Only fetches trivia questions if you "win" the coin flip (get "Heads")
